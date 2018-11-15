@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel=stylesheet>
+<button id="mi-boton" class="btn btn-danger" value="0">Intro Mate</button>&rarr;
+<button id="mi-boton1" class="btn btn-danger" value="0">Cálculo Dif. Int</button>&rarr;
+<button id="mi-boton2" class="btn btn-danger" value="0">Cálculo Avanzado</button>&rarr;
+<button id="mi-boton3" class="btn btn-danger" value="0">Probab. y Estadistica</button>&rarr;
+<button id="mi-boton4" class="btn btn-danger" value="0">Redes de Compu.</button>&rarr;
+<button id="mi-boton5" class="btn btn-danger" value="0">Redes y Servicios</button>&rarr;
+<button id="mi-boton6" class="btn btn-danger" value="0">Admón. de Redes</button>
+<br>&darr;
+<script>
+$("#mi-boton").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton1").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton2").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+  //$("#mi-boton1").offset({top: 10, left: 50});
+});
+$("#mi-boton3").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton4").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton5").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton6").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+</script>
+<div id="content"></div>
+</body>
+</html>
+

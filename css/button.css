@@ -1,0 +1,798 @@
+#hoja1{
+	background-color: #E6E6E6;
+}
+#desit{
+	background-color:blanchedalmond;
+	width:130px;
+	height:190px;
+    margin-top: auto;
+	margin-left:990px;
+    margin-top: -150px;
+    position: absolute;
+}
+
+#mi-boton{
+	font-size: 10px;
+}
+#mi-boton:hover{
+		background:#0B6121 ;
+		border-color:#0B6121; 
+	}
+#mi-boton:hover ~ #mi-boton1{
+	background: #04B4AE;
+	border-color: #04B4AE;
+}
+#mi-boton:hover ~ #mi-boton10{
+	background: #04B4AE;
+	border-color: #04B4AE;
+}
+#mi-boton:hover ~ #mi-boton14{
+	background: #04B4AE;
+	border-color: #04B4AE;
+}
+
+
+#mi-boton1{
+	font-size: 10px;
+}
+#mi-boton1:hover{
+		background:#0B6121 ;
+		border-color:#0B6121; 
+	}
+#mi-boton1:hover ~ #mi-boton2{
+	background: #04B4AE;
+	border-color: #04B4AE;
+}
+
+
+#mi-boton2{
+	font-size: 10px;
+}
+#mi-boton2:hover{
+		background:#0B6121 ;
+		border-color:#0B6121; 
+	}
+#mi-boton2:hover ~ #mi-boton3{
+	background: #04B4AE;
+	border-color: #04B4AE;
+}
+
+#mi-boton3{
+	font-size: 10px;
+}
+#mi-boton3:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton3:hover ~#mi-boton4{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton3:hover ~#mi-boton8{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+
+
+#mi-boton4{
+	font-size: 10px;
+}
+#mi-boton4:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton4:hover ~#mi-boton5{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+
+
+#mi-boton5{
+	font-size: 10px;
+}
+#mi-boton5:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton5:hover ~#mi-boton6{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+
+
+#mi-boton6{
+	font-size: 10px;
+}
+#mi-boton6:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton7{
+	font-size: 10px;
+}
+#mi-boton7:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton8{
+	font-size: 10px;
+}
+#mi-boton8:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton9{
+	font-size: 10px;
+}
+#mi-boton9:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+
+
+#mi-boton10{
+	font-size: 10px;
+}
+#mi-boton10:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton10:hover ~#mi-boton7{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton10:hover ~#mi-boton11{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton10:hover ~#mi-boton12{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+
+
+#mi-boton11{
+	font-size: 10px;
+}
+#mi-boton11:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton11:hover ~#mi-boton13{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton11:hover ~#mi-boton28{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+
+
+#mi-boton12{
+	font-size: 10px;
+}
+#mi-boton12:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton13{
+	font-size: 10px;
+}
+#mi-boton13:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton14{
+	font-size: 10px;
+}
+#mi-boton14:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton14:hover ~#mi-boton15{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton15{
+	font-size: 10px;
+}
+#mi-boton15:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton15:hover ~#mi-boton16{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton16{
+	font-size: 10px;
+}
+#mi-boton16:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton17{
+	font-size: 10px;
+}
+#mi-boton17:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton17:hover ~#mi-boton38{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+
+#mi-boton18{
+	font-size: 10px;
+}
+#mi-boton18:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton18:hover ~#mi-boton19{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton19{
+	font-size: 10px;
+}
+#mi-boton19:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton19:hover ~#mi-boton20{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton20{
+	font-size: 10px;
+}
+#mi-boton20:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton21{
+	font-size: 10px;
+}
+#mi-boton21:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton21:hover ~#mi-boton22{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton22{
+	font-size: 10px;
+}
+#mi-boton22:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton22:hover ~#mi-boton99{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton99{
+	font-size: 10px;
+}
+#mi-boton99:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton99:hover ~#mi-boton23{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton99:hover ~#mi-boton31{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton99:hover ~#mi-boton7{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton23{
+	font-size: 10px;
+}
+#mi-boton23:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton23:hover ~#mi-boton17{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton23:hover ~#mi-boton29{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton23:hover ~#mi-boton33{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton23:hover ~#mi-boton43{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton23:hover ~#mi-boton24{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton24{
+	font-size: 10px;
+}
+#mi-boton24:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton24:hover ~#mi-boton17{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton24:hover ~#mi-boton25{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton25{
+	font-size: 10px;
+}
+#mi-boton25:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton25:hover ~#mi-boton26{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton26{
+	font-size: 10px;
+}
+#mi-boton26:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton26:hover ~#mi-boton27{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton27{
+	font-size: 10px;
+}
+#mi-boton27:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton28{
+	font-size: 10px;
+}
+#mi-boton28:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton29{
+	font-size: 10px;
+}
+#mi-boton29:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton29:hover ~#mi-boton30{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton30{
+	font-size: 10px;
+}
+#mi-boton30:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton30:hover ~#mi-boton27{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton31{
+	font-size: 10px;
+}
+#mi-boton31:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton31:hover ~#mi-boton32{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton32{
+	font-size: 10px;
+}
+#mi-boton32:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton33{
+	font-size: 10px;
+}
+#mi-boton33:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton33:hover ~#mi-boton17{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton34{
+	font-size: 10px;
+}
+#mi-boton34:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton35{
+	font-size: 10px;
+}
+#mi-boton35:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton36{
+	font-size: 10px;
+}
+#mi-boton36:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton37{
+	font-size: 10px;
+}
+#mi-boton37:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton38{
+	font-size: 10px;
+}
+#mi-boton38:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton38:hover ~#mi-boton39{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton39{
+	font-size: 10px;
+}
+#mi-boton39:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton39:hover ~#mi-boton40{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton40{
+	font-size: 10px;
+}
+#mi-boton40:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton40:hover ~#mi-boton41{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton41{
+	font-size: 9px;
+}
+#mi-boton41:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton42{
+	font-size: 10px;
+}
+#mi-boton42:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton43{
+	font-size: 10px;
+}
+#mi-boton43:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton43:hover ~#mi-boton34{
+	background:#04B4AE ;
+	border-color:#04B4AE; 
+}
+#mi-boton44{
+	font-size: 10px;
+}
+#mi-boton44:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton45{
+	font-size: 10px;
+}
+#mi-boton45:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton46{
+	font-size: 10px;
+}
+#mi-boton46:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton47{
+	font-size: 10px;
+}
+#mi-boton47:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton48{
+	font-size: 10px;
+}
+#mi-boton48:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton49{
+	font-size: 10px;
+}
+#mi-boton49:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton50{
+	font-size: 10px;
+}
+#mi-boton50:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton51{
+	font-size: 10px;
+}
+#mi-boton51:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton52{
+	font-size: 10px;
+}
+#mi-boton52:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton53{
+	font-size: 10px;
+}
+#mi-boton53:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton54{
+	font-size: 10px;
+}
+#mi-boton54:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+
+#mi-boton55{
+	font-size: 10px;
+}
+#mi-boton55:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton56{
+	font-size: 10px;
+}
+#mi-boton56:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton57{
+	font-size: 10px;
+}
+#mi-boton57:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton58{
+	font-size: 10px;
+}
+#mi-boton58:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton59{
+	font-size: 10px;
+}
+#mi-boton59:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton60{
+	font-size: 10px;
+}
+#mi-boton60:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton61{
+	font-size: 10px;
+}
+#mi-boton61:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton62{
+	font-size: 10px;
+}
+#mi-boton62:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton63{
+	font-size: 10px;
+}
+#mi-boton63:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton64{
+	font-size: 10px;
+}
+#mi-boton64:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton65{
+	font-size: 10px;
+}
+#mi-boton65:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton66{
+	font-size: 10px;
+}
+#mi-boton66:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton67{
+	font-size: 10px;
+}
+#mi-boton67:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton68{
+	font-size: 10px;
+}
+#mi-boton68:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton69{
+	font-size: 10px;
+}
+#mi-boton69:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton70{
+	font-size: 10px;
+}
+#mi-boton70:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton71{
+	font-size: 10px;
+}
+#mi-boton71:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton72{
+	font-size: 10px;
+}
+#mi-boton72:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton73{
+	font-size: 10px;
+}
+#mi-boton73:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton74{
+	font-size: 10px;
+}
+#mi-boton74:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton75{
+	font-size: 10px;
+}
+#mi-boton75:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton76{
+	font-size: 10px;
+}
+#mi-boton76:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton77{
+	font-size: 10px;
+}
+#mi-boton77:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton78{
+	font-size: 10px;
+}
+#mi-boton78:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton79{
+	font-size: 10px;
+}
+#mi-boton79:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton{
+	font-size: 10px;
+}
+#mi-boton80:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton81{
+	font-size: 10px;
+}
+#mi-boton81:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton82{
+	font-size: 10px;
+}
+#mi-boton82:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton83{
+	font-size: 10px;
+}
+#mi-boton83:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
+#mi-boton84{
+	font-size: 10px;
+}
+#mi-boton84:hover{
+	background:#0B6121 ;
+	border-color:#0B6121; 
+}
