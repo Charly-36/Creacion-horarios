@@ -1,0 +1,365 @@
+<html lang="en">
+<head>
+  <title>Creación de horarios ITI-FCC</title>
+  <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel=stylesheet>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/button.css"/>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	  button:hover{
+		  background-color: aquamarine;
+	  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+		<a class="navbar-brand js-scroll-trigger" style="color: azure">Creación de Horarios ITI-FCC.</a>
+      <ul class="nav navbar-nav navbar-right">
+		  <li><a href="#"><span class="glyphicon glyphicon-cog" title="Configuración"></span> </a></li>
+        <li><a href="./index.html"><span class="glyphicon glyphicon-off" title="Cerrar Sesión"></span> </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="mapa-grafico-ITI-FCC.html">Mapa Gráfico ITI</a></li>
+        <li><a href="materias-cursadas.html">Materias Cursadas</a></li>
+        <li><a href="#">Materias Ofertadas</a></li>
+        <li><a href="#">Horarios</a></li>
+      </ul>
+  </div>
+</div>
+	
+<hr style="color: crimson ;" size="10" />
+<div class="container-fluid bg-3 text-center" id="hoja1">    
+	<H5 style="text-align: left; color:blueviolet">ASIGNATURAS NIVEL BÁSICO Y FORMATIVO</H5>
+	<button id="mi-boton" class="btn btn-danger" value="0">INTROD. A LAS<BR> MATEMATICAS</BR></button>&nbsp;
+	<button id="mi-boton1" class="btn btn-danger" value="0">CÁLCULO<BR>DIF. E INTEG.</BR></button>&nbsp;
+	<button id="mi-boton2" class="btn btn-danger" value="0">CÁLCULO<BR>AVANZADO</BR></button>&nbsp;
+	<button id="mi-boton3" class="btn btn-danger" value="0">PROBAB. Y<BR>ESTADÍSTICA</BR></button>&nbsp;
+	<button id="mi-boton4" class="btn btn-danger" value="0">REDES DE<BR>COMPU.</BR></button>&nbsp;
+	<button id="mi-boton5" class="btn btn-danger" value="0">REDES Y<BR>SERVICIOS</BR></button>&nbsp;
+	<button id="mi-boton6" class="btn btn-danger" value="0">ADMÓN. DE<BR>REDES</BR></button>
+<br><br>
+	<button id="mi-boton8" class="btn btn-danger" value="0">MÉTODOS<BR>ESTADÍSTICOS</BR></button>&nbsp;
+	<button id="mi-boton9" class="btn btn-danger" value="0">SERVICIO<BR>SOCIAL</BR></button>
+<BR></BR>
+	<button id="mi-boton10" class="btn btn-danger" value="0">ALG. lINEAL<BR>CON APLIC.</BR></button>&nbsp;
+	<button id="mi-boton11" class="btn btn-danger" value="0">MATEMÁTICAS<BR>DISCRETAS</BR></button>&nbsp;
+	<button id="mi-boton12" class="btn btn-danger" value="0">INVEST. DE<BR>OPERACIONES</BR></button>&nbsp;
+	<button id="mi-boton13" class="btn btn-danger" value="0">MÉTODOS<BR>FORMALES</BR></button>
+<BR></BR>
+	<button id="mi-boton14" class="btn btn-danger" value="0">FÍSICA</button>&nbsp;
+	<button id="mi-boton15" class="btn btn-danger" value="0">CIRCUITOS<BR>ELÉCTRONICOS</BR></button>&nbsp;
+	<button id="mi-boton16" class="btn btn-danger" value="0">SISTEMAS<BR>DIGITALES</BR></button>&nbsp;
+	
+	<button id="mi-boton18" class="btn btn-danger" value="0">ADMÓN. DE<BR>PROYECTOS</BR></button>&nbsp;
+	<button id="mi-boton19" class="btn btn-danger" value="0">PROYECTOS <BR>I+D1</BR></button>&nbsp;
+	<button id="mi-boton20" class="btn btn-danger" value="0">PROYECTOS<BR>I+D2</BR></button>
+	<br><BR>
+	<button id="mi-boton21" class="btn btn-danger" value="0">INTRODUCCIÓN<BR>DE LA PROG.</BR></button>&nbsp;
+	<button id="mi-boton22" class="btn btn-danger" value="0">PROGRAMACIÓN<BR>O.O.I</BR></button>&nbsp;
+    <button id="mi-boton99" class="btn btn-danger" value="0">PROGRAMACIÓN<BR>O.O.II</BR></button>&nbsp;
+	<button id="mi-boton23" class="btn btn-danger" value="0">ING. DE<BR>SOFTWARE 1</BR></button>&nbsp;
+	<button id="mi-boton24" class="btn btn-danger" value="0">DISEÑO<BR>DE BD</BR></button>&nbsp;
+	<button id="mi-boton25" class="btn btn-danger" value="0">ADMÓN.<BR>DE BD</BR></button>&nbsp;
+	<button id="mi-boton26" class="btn btn-danger" value="0">MINERÍA DE<BR>DATOS</BR></button>&nbsp;
+	
+<BR></BR>
+    <button id="mi-boton7" class="btn btn-danger" value="0">GRAFICACIÓN</button>&nbsp;
+	<button id="mi-boton28" class="btn btn-danger" value="0">FUND. DE LA<BR>PRO. lÓGICA</BR></button>&nbsp;
+	<button id="mi-boton29" class="btn btn-danger" value="0">TG DE SIST. Y<BR>SIST. DE INF.</BR></button>&nbsp;
+	<button id="mi-boton30" class="btn btn-danger" value="0">MOD. DE PR.<BR>DE NEGOCIOS</BR></button>
+    <button id="mi-boton17" class="btn btn-danger" value="0">ING. DE<BR>SOFTWARE II</BR></button>&nbsp;
+    <button id="mi-boton27" class="btn btn-danger" value="0">INTELIG. DE<BR>NEGOCIOS</BR></button>
+<BR></BR>
+	<button id="mi-boton31" class="btn btn-danger" value="0">SISTEMAS<BR>OPERATIVOS</BR></button>&nbsp;
+	<button id="mi-boton32" class="btn btn-danger" value="0">ADMÓN. SIST.<BR>OPERATIVOS</BR></button>&nbsp;
+	<button id="mi-boton33" class="btn btn-danger" value="0">CÓMPUTO<BR>DISTRIBUIDO</BR></button>&nbsp;
+	<button id="mi-boton34" class="btn btn-danger" value="0">TRABAJO<BR>COLABORATIVO</BR></button>&nbsp;
+	<button id="mi-boton35" class="btn btn-danger" value="0">PRÁCTICA<BR>PROFESIONAL</BR></button>&nbsp;
+<br><br>
+	<button id="mi-boton36" class="btn btn-danger" value="0">REDACCCIÓN</button>&nbsp;
+	<button id="mi-boton37" class="btn btn-danger" value="0">INOVACIÓN Y<BR>TALENTO</BR></button>&nbsp;
+	<button id="mi-boton38" class="btn btn-danger" value="0">TECNOLOGÍAS<BR>WEB</BR></button>&nbsp;
+	<button id="mi-boton39" class="btn btn-danger" value="0">INGENIERÍA<BR>WEB</BR></button>&nbsp;
+	<button id="mi-boton40" class="btn btn-danger" value="0">SERVICIOS<BR>WEB</BR></button>&nbsp;
+	<button id="mi-boton41" class="btn btn-danger" value="0">PR. DE DISP<BR>MÓVILES</BR></button>&nbsp;
+<br><br>
+	<button id="mi-boton42" class="btn btn-danger" value="0">HERRAMIENTAS<BR>APRENDIZAJE</BR>AUTÓNOMO</button>&nbsp;
+	<button id="mi-boton43" class="btn btn-danger" value="0">IHC</button>&nbsp;
+	<button id="mi-boton44" class="btn btn-danger" value="0">OPTATIVA 1</button>&nbsp;
+	<button id="mi-boton45" class="btn btn-danger" value="0">OPTATIVA 2</button>&nbsp;
+	<button id="mi-boton46" class="btn btn-danger" value="0">OPTATIVA 3</button>&nbsp;
+<br><br>
+	<button id="mi-boton47" class="btn btn-danger" value="0">DHTIC</button>&nbsp;
+	<button id="mi-boton48" class="btn btn-danger" value="0">DHPC</button>&nbsp;
+	<button id="mi-boton49" class="btn btn-danger" value="0">FORMACIÓN<BR>HUMANA Y SOC.</BR></button>&nbsp;
+	<button id="mi-boton50" class="btn btn-danger" value="0">OPTATIVA 1</button>&nbsp;
+	<button id="mi-boton51" class="btn btn-danger" value="0">OPTATIVA 2</button>&nbsp;
+	<button id="mi-boton52" class="btn btn-danger" value="0">OPTATIVA 3</button>&nbsp;
+	<button id="mi-boton53" class="btn btn-danger" value="0">OPTATIVA 4</button>&nbsp;
+	<button id="mi-boton54" class="btn btn-danger" value="0">OPTATIVA 5</button>&nbsp;
+	</BR><BR></BR>
+	<script>
+$("#mi-boton").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton1").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton2").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+  //$("#mi-boton1").offset({top: 10, left: 50});
+});
+$("#mi-boton3").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton4").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton5").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton6").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+	$("#mi-boton7").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton8").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+  //$("#mi-boton1").offset({top: 10, left: 50});
+});
+$("#mi-boton9").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton10").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton11").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton12").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton13").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton14").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+	$("#mi-boton15").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton16").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+  //$("#mi-boton1").offset({top: 10, left: 50});
+});
+$("#mi-boton17").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton18").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton19").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton20").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton21").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton22").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton23").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton24").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton25").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton26").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton27").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+	$("#mi-boton28").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton29").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+  //$("#mi-boton1").offset({top: 10, left: 50});
+});
+$("#mi-boton30").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton31").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton32").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton33").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton34").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton35").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton36").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton37").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton38").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton39").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton40").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+	$("#mi-boton41").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton42").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+  //$("#mi-boton1").offset({top: 10, left: 50});
+});
+$("#mi-boton43").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton44").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton45").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton46").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton47").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+        
+$("#mi-boton48").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton49").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton50").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton51").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton52").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton53").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+	$("#mi-boton54").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+$("#mi-boton99").click(function(){
+  $(this).toggleClass("btn-danger btn-success");
+});
+</script>
+	
+</div>
+<hr style="color: crimson ;" size="10" />
+<div class="container-fluid bg-3 text-center" id="hoja1">
+	<H5 style="text-align: left; color:blueviolet">ASIGNATURAS NIVEL OPTATIVAS</H5>
+	<button id="mi-boton55" class="btn btn-danger" value="0">CÓMPUTO<BR> DISTRIBUIDO</BR></button>&nbsp;
+	<button id="mi-boton56" class="btn btn-danger" value="0">AGENTES</button>&nbsp;
+	<button id="mi-boton57" class="btn btn-danger" value="0">GESTIÓN<BR>ELECTRÓNICA</BR></button>&nbsp;
+	<button id="mi-boton58" class="btn btn-danger" value="0">INVEST. DE<BR>OPERACIONES</BR></button>&nbsp;
+	<button id="mi-boton59" class="btn btn-danger" value="0">LOGÍSTICA</button>&nbsp;
+    <br><br>
+	<button id="mi-boton60" class="btn btn-danger" value="0">TRABAJO<BR>COLABORAT.</BR></button>&nbsp;
+	<button id="mi-boton61" class="btn btn-danger" value="0">CÓMPUTO<BR>UBICUO</BR></button>&nbsp;
+	<button id="mi-boton62" class="btn btn-danger" value="0">INTELIG. DE<BR>NEGOCIOS</BR></button>
+	<button id="mi-boton63" class="btn btn-danger" value="0">SISTEMAS DE<BR>INF. GEOG.</BR></button>
+<BR></BR>
+	<button id="mi-boton64" class="btn btn-danger" value="0">ADMÓN SIST.<BR>OPERATIVOS</BR></button>&nbsp;
+	<button id="mi-boton65" class="btn btn-danger" value="0">LENGUAJES Y<BR>TRADUCT.</BR></button>&nbsp;
+	<button id="mi-boton66" class="btn btn-danger" value="0">MINERÍA DE<BR>DATOS</BR></button>&nbsp;
+	<button id="mi-boton67" class="btn btn-danger" value="0">TEORÍA DE<BR>DECISIONES</BR></button>
+	<button id="mi-boton68" class="btn btn-danger" value="0">TRATAMIENTO DE<BR>INFORMACIÓN</BR></button>
+<BR></BR>
+	<button id="mi-boton69" class="btn btn-danger" value="0">FUND. DE LA<BR>PRO. LÓGICA</BR></button>
+	<button id="mi-boton70" class="btn btn-danger" value="0">INTELIGENCIA<BR>ARTIFICIAL</BR></button>&nbsp;
+	<button id="mi-boton71" class="btn btn-danger" value="0">APRENDIZAJE<BR>ARTIFICIAL</BR></button>&nbsp;
+	<button id="mi-boton72" class="btn btn-danger" value="0">SISTEMAS<BR>DIGITALES</BR></button>&nbsp;
+	<button id="mi-boton73" class="btn btn-danger" value="0">ORGANIZ. DE<BR>COMPUT</BR></button>&nbsp;
+<BR></BR>
+	<button id="mi-boton74" class="btn btn-danger" value="0">PROG.<BR>DECLARATIVA</BR></button>&nbsp;
+<br><br>
+	<button id="mi-boton75" class="btn btn-danger" value="0">SERVICIOS<BR>WEB</BR></button>&nbsp;
+	<button id="mi-boton76" class="btn btn-danger" value="0">TÉC. DE RAZO.<BR>INTELIGENTE</BR></button>&nbsp;
+	<BR></BR>
+	<button id="mi-boton77" class="btn btn-danger" value="0">MÉTODOS<BR>FORMALES</BR></button>&nbsp;
+	<button id="mi-boton78" class="btn btn-danger" value="0">INGENIERÍA<BR>DEL CONOC.</BR></button>&nbsp;
+	<button id="mi-boton79" class="btn btn-danger" value="0">WEB<BR>SEMÁNTICA</BR></button>&nbsp;
+	<BR></BR>
+	<button id="mi-boto7" class="btn btn-danger" value="0"><BR>GRAFICACIÓN</BR></button>&nbsp;
+    <p id="desit">Optativas Desit</p>
+	<button id="mi-boton81" class="btn btn-danger" value="0">PROC. DIGITAL DE<BR>IMÁGENES</BR></button>
+    		<div class="container-fluid bg-3 text-center" id="desit"><br>
+                <button id="mi-boton82" class="btn btn-danger" value="0">DES. DE SITIOS<BR>WEB</BR></button>&nbsp;<br>
+                <button id="mi-boton83" class="btn btn-danger" value="0">MANT. DE EQ.<BR>Y R. DE COMP.</BR></button>&nbsp;<br>
+                <button id="mi-boton84" class="btn btn-danger" value="0">TEC. EMER.  <BR>PARA TICS.</BR></button>&nbsp;<br>
+                <script>
+                $("#mi-boton53").click(function(){
+                    $(this).toggleClass("btn-danger btn-success");
+                });
+	           $("#mi-boton54").click(function(){
+                $(this).toggleClass("btn-danger btn-success");
+               });
+                $("#mi-boton99").click(function(){
+                $(this).toggleClass("btn-danger btn-success");
+                });
+</script>
+                </script>
+	</div>
+<BR></BR>
+	<button id="mi-boton28" class="btn btn-danger" value="0">INGENIERÍA<BR>WEB</BR></button>&nbsp;
+	<button id="mi-boton29" class="btn btn-danger" value="0">CÓMP. ORIENT.<BR>A SERVICIOS</BR></button>&nbsp;
+	<button id="mi-boton30" class="btn btn-danger" value="0">DES. BASADO<BR>EN MODELOS</BR></button>
+    <br><br><br>
+	</div>
+</body>
+</html>
